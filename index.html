@@ -55,7 +55,7 @@
 <body>
     <!-- ******HEADER****** --> 
     <header class="header">
-        <div class="container clearfix">                       
+        <div class="container clearfix">                      
             <img class="profile-image img-fluid float-left" src="assets/images/profile.png"height="260" width="260" alt="Ish Kumar Jain" />
             <div class="profile-content float-left">
                 <h1 class="name">Ish Kumar Jain</h1>
@@ -66,22 +66,27 @@
                     <li class="list-inline-item" data-toggle="tooltip" data-placement="left" data-animation="true" title="Google Scholar" ><a href="https://scholar.google.com/citations?user=E0qNSfwAAAAJ" target="_blank"><i class="fab fa-google"></i></a></li> 
              
                 </ul> 
-            </div><!--//profile-->
 
-            <a class="btn btn-cta-primary float-right" href="#projects" target="_blank"><i class="fas fa-paper-plane"></i> Projects</a>  
-            <a class="btn btn-cta-primary float-right" href="#projects" target="_blank"><i class="fas fa-paper-plane"></i> Projects</a>  
-        
+            </div><!--//profile-->
+		<div class="btn-group float-right">
+			<a class="btn btn-cta-secondary float-right" href="#about"><i class="fas fa-user"></i> About</a>
+			<a class="btn btn-cta-secondary float-right" href="#projects"><i class="fas fa-desktop"></i> Projects</a>  
+			<a class="btn btn-cta-secondary float-right" href="#experience"><i class="fas fa-briefcase"></i> Experience</a> 
+			<a class="btn btn-cta-secondary float-right" href="#blogs"><i class="fab fa-blogger"></i> Blog</a> 
+			<a class="btn btn-cta-secondary float-right" href="#contact"><i class="fas fa-paper-plane"></i> Contact</a> 
+		</div>	
         </div><!--//container-->
+
     </header><!--//header-->
     
     <div class="container sections-wrapper">
         <div class="row">
             <div class="primary col-lg-8 col-12">
                 <section class="about section">
-                    <div class="section-inner">
+                    <div class="section-inner" id="about">
                         <h2 class="heading">About Me</h2>
                         <div class="content">
-                            <p> I hail from central India (also called "Heart of India"). In 2016, I came to the United States for my Masters at NYU and ended up doing my PhD at UCSD, thanks to my MS thesis advisor <a href="https://engineering.nyu.edu/faculty/shivendra-panwar" target="_blank"> Prof. Shivendra Panwar</a>, and my PhD guide <a href="http://web.eng.ucsd.edu/~dineshb/" traget="_blank">Prof. Dinesh Bharadia</a>. I miss the subway train and Indian food of New York, but, I like the weather and beaches of San Diego. During my free times, I enjoy sketching, painting, and writing personal blogs.
+                            <p> I hail from a small city in central India (also called "Heart of India"). In 2016, I came to the United States for my Masters at NYU and ended up doing my PhD at UCSD, thanks to my MS thesis advisor <a href="https://engineering.nyu.edu/faculty/shivendra-panwar" target="_blank"> Prof. Shivendra Panwar</a>, and my PhD guide <a href="http://web.eng.ucsd.edu/~dineshb/" traget="_blank">Prof. Dinesh Bharadia</a>. I miss the subway train and Indian food of New York, but, I like the weather and beaches of San Diego. During my free times, I enjoy sketching, painting, and writing personal blogs.
 <!--
 I am from India and currently pursuing my PhD in Electrical Engineering from New York University, 
 Tandon School of Engineering. I have interests in the field of Wireless  Communications and Networking.
@@ -93,12 +98,12 @@ is on Rendezvous Algorithms for Cognitive Radio Networks. <br> --></p>
                 </section><!--//section-->
     
                <section class="latest section">
-                    <div class="section-inner">
+                    <div class="section-inner"id="projects">
                         <h2 class="heading">Latest Projects</h2>
                         <div class="content">    
                                                
                             <div class="item featured text-center">
-                                <h3 class="title"><a href="#" target="_blank">mmWave Blockage Analysis</a></h3>
+                                <h3 class="title"><a href="https://github.com/ishjain/mmWave" target="_blank">mmWave Blockage Analysis</a></h3>
                                 <p class="summary">An analysis of the impact of mobile blockers on mmWave links</p>
                                 <div class="featured-image has-ribbon">
                                     <a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/velocity-bootstrap-theme-for-startup-products/" target="_blank">
@@ -126,7 +131,7 @@ We present a simplified model for the key QoS parameters such as blockage probab
                                 <img class="img-fluid project-image" src="https://github.com/ishjain/AQMs/blob/master/image.png?raw=true" alt="project name" />
                                 </a>
                                 <div class="desc col-md-8 col-12">
-                                    <h3 class="title"><a href="#" target="_blank">Active Queue Management</a></h3>
+                                    <h3 class="title"><a href="https://github.com/ishjain/AQMs" target="_blank">Active Queue Management</a></h3>
                                     <p class="mb-2">We implemented 7 queue management schemes including ARED, CoDel, PIE, and SFQ on GENI testbed and analyzed their performances in residential settings.</p>
                                     <p><a class="more-link" href="https://github.com/ishjain/AQMs" target="_blank"><i class="fas fa-external-link-alt"></i>View on Github</a></p>
 
@@ -144,11 +149,11 @@ We present a simplified model for the key QoS parameters such as blockage probab
                 </section><!--//section-->
                 
                 <section class="projects section">
-                    <div class="section-inner" id="projects">
-                        <h2 class="heading">Other Projects</h2>
+                    <div class="section-inner" >
+                        <h2 class="heading">Fun Projects</h2>
                         <div class="content">
                             <div class="item">
-                                <h3 class="title"><a href="#">Chameo (A colour Sensing and production device) (2014)</a> <!--<span class="badge badge-theme">Free</span>--></h3>
+                                <h3 class="title"><a href="http://students.iitk.ac.in/eclub/projects.html#portfolioModal25">Chameo (A colour Sensing and production device) (2014)</a> <!--<span class="badge badge-theme">Free</span>--></h3>
                                 <p class="summary">Published :  "Study of use of Water based Solvent in Ink Homogenization."
    <i> International Journal of Engineering Research & Technology.</i> Vol. 3 - Issue 7, July 2014.<br>Studied the colour homogenization and its production with the use of water based solvent, through experiments. Fabricated a device which can sense and produce same colour using different proportion of CMYK ink and solvent.</p>
                                 <p><a class="more-link" href="https://www.youtube.com/watch?v=C-DU7kmwhMw&feature=youtu.be" target="_blank"><i class="fas fa-external-link-alt"></i>Video on Youtube</a></p>
@@ -158,7 +163,8 @@ We present a simplified model for the key QoS parameters such as blockage probab
                                 <p class="summary">Made a platform which is balanced horizontally with the help 
 of three motors, irrespective of the movement of the base at the bottom. Used an accelerometer and gyroscope based IMU to get the feedback 
 of the tilt of platform and processed the signal in an Arduino Mega. Applied PID control and kalman filter algorithm to stabilise the platform obtained by precise movement of servos in real time. </p>
-                                <p><a class="more-link" href="https://www.youtube.com/watch?v=Y4LAA6hSUyA&feature=c4-overview-vl&list=PLhtAYFl1bR0pbYGHt_vU6U1ebcxhiymnT" target="_blank"><i class="fas fa-external-link-alt"></i>Video on Youtube</a></p>
+                                <p><a class="more-link" href="http://students.iitk.ac.in/eclub/assets/documentations/summer13/Self%20Balancing%20Platform.pdf" target="_blank"><i class="fas fa-external-link-alt"></i>Documentation </a>  <a class="more-link" href="https://www.youtube.com/watch?v=Y4LAA6hSUyA&feature=c4-overview-vl&list=PLhtAYFl1bR0pbYGHt_vU6U1ebcxhiymnT" target="_blank"><i class="fas fa-external-link-alt"></i>Video on Youtube</a> </p>
+
                             </div><!--//item-->
                             
                             
@@ -169,7 +175,7 @@ of the tilt of platform and processed the signal in an Arduino Mega. Applied PID
                 </section><!--//section-->
                 
                 <section class="experience section">
-                    <div class="section-inner">
+                    <div class="section-inner" id="experience">
                         <h2 class="heading">Work Experience</h2>
                         <div class="content">
                             <div class="item">
@@ -185,11 +191,34 @@ of the tilt of platform and processed the signal in an Arduino Mega. Applied PID
                     </div><!--//section-inner-->                 
                 </section><!--//section-->
 
+
+		<section class="blog aside section">
+                    <div class="section-inner" id = "blogs">
+                        <h2 class="heading">Latest Blog Posts</h2>
+                        <!-- <p>You can use Sascha Depold's <a href="https://github.com/sdepold/jquery-rss" target="_blank">jQuery RSS plugin</a> to pull in your blog post feeds.</p>
+                        <div id="rss-feeds" class="content"> -->
+
+				<!-- pasted by Ish-->
+			
+			<div class="content">
+                            <div class="item">
+                                <h3 class="title"><a href = "https://github.com/ishjain/mmWave/blob/master/HPC_Matlab.md" target = "_blank">How to run Matlab on NYU HPC cluster</a> <span class="year">(2017)</span></h3>
+                                <p>Step-1: Use Git-Bash in Windows (or terminal in Linux) and login to hpc as follow...</p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title"><a href = "http://school-days-memories-ishjain.blogspot.com/2016/07/blessings-of-professors-iitk.html" target = "_blank">Blessings of Professors, IIT Kanpur</a> <span class="year">(2016)</span></h3>
+                                <p>It's time to thank all the professors at IITK who guided us through the 4 years of the best period of our life...</p>
+                            </div><!--//item-->
+			<p><a class="more-link" href="http://school-days-memories-ishjain.blogspot.com/2016/07/blessings-of-professors-iitk.html" target="_blank"><i class="fas fa-external-link-alt"></i>More on Blogger</a></p>                 
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->
+                </section><!--//section-->
+
                 
             </div><!--//primary-->
             <div class="secondary col-lg-4 col-12">
                  <aside class="info aside section">
-                    <div class="section-inner">
+                    <div class="section-inner" id = "contact">
                         <h2 class="heading sr-only">Basic Information</h2>
                         <div class="content">
                             <ul class="list-unstyled">
@@ -262,29 +291,7 @@ of the tilt of platform and processed the signal in an Arduino Mega. Applied PID
                     </div>
                 </aside>-->
                 
-                <aside class="blog aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Latest Blog Posts</h2>
-                        <!-- <p>You can use Sascha Depold's <a href="https://github.com/sdepold/jquery-rss" target="_blank">jQuery RSS plugin</a> to pull in your blog post feeds.</p>
-                        <div id="rss-feeds" class="content"> -->
-
-				<!-- pasted by Ish-->
-			
-			<div class="content">
-                            <div class="item">
-                                <h3 class="title"><a href = "https://github.com/ishjain/mmWave/blob/master/HPC_Matlab.md" target = "_blank">How to run Matlab on NYU HPC cluster</a> <span class="year">(2017)</span></h3>
-                                <p>Step-1: Use Git-Bash in Windows (or terminal in Linux) and login to hpc as follow...</p>
-                            </div><!--//item-->
-			<p><a class="more-link" href="http://school-days-memories-ishjain.blogspot.com/2016/07/blessings-of-professors-iitk.html" target="_blank"><i class="fas fa-external-link-alt"></i>More on Blogger</a></p> 
-                            
-  
-                        </div><!--//content-->  
-			
-
-
-                       
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
+                
                 
                 
                 <aside class="list conferences aside section">
@@ -292,7 +299,7 @@ of the tilt of platform and processed the signal in an Arduino Mega. Applied PID
                         <h2 class="heading">Conferences</h2>
                         <div class="content">
                             <ul class="list-unstyled">
-                                <li><i class="far fa-calendar-alt"></i> <a href="#" target="_blank">ITC 2018</a> (Vienna, Austria)</li>
+                                <li><i class="far fa-calendar-alt"></i> <a href="https://itc30.org/" target="_blank">ITC 2018</a> (Vienna, Austria)</li>
                                 
                             </ul>
                         </div><!--//content-->
