@@ -119,8 +119,8 @@
 			<div class="btn-group float-right" role="toolbar" aria-label="Right Align">
 			<a class="btn btn-cta-secondary float-right" href="#about"><i class="fas fa-user"></i> About</a>
 			<a class="btn btn-cta-secondary float-right" href="#projects"><i class="fas fa-desktop"></i> Projects</a>  
-			<!--<a class="btn btn-cta-secondary float-right" href="#experience"><i class="fas fa-briefcase"></i> Experience</a> -->
-			<a class="btn btn-cta-secondary float-right" href="#blogs"><i class="fab fa-blogger"></i> Blog</a> 
+			<!--<a class="btn btn-cta-secondary float-right" href="#experience"><i class="fas fa-briefcase"></i> Experience</a> 
+			<a class="btn btn-cta-secondary float-right" href="#blogs"><i class="fab fa-blogger"></i> Blog</a> -->
 			<a class="btn btn-cta-secondary float-right" href="#contact"><i class="fas fa-paper-plane"></i> Contact</a> 
 		</div>
     </div>
@@ -150,30 +150,51 @@ is on Rendezvous Algorithms for Cognitive Radio Networks. <br> --></p>
                     <div class="section-inner"id="projects">
                         <h2 class="heading">Research Projects</h2>
                         <div class="content">    
-                                               
-                            <div class="item featured text-center">
-                                <h3 class="title"><a href="https://github.com/ishjain/mmWave" target="_blank">mmWave Blockage Analysis</a></h3>
-                                <p class="summary">An analysis of the impact of mobile blockers on mmWave links</p>
+<!-------------------------------------------------------------->                                    
+                             <div class="item featured text-center">
+                                <h3 class="title"><a href="#" target="_blank">Wireless Virtual Reality</a></h3>
+                                <p class="summary">Enabling low latency and reliable VR over mmWave networks</p>
                                 <div class="featured-image has-ribbon">
                                     <a href="https://github.com/ishjain/mmWave" target="_blank">
                                     <img class="img-fluid project-image" src="assets/images/projects/proj-VR.jpg" alt="project name" />
                                     </a>
                                     <div class="ribbon">
-                                        <div class="text">New</div>
+                                        <div class="text">Ongoing</div>
                                     </div>
                                 </div>
                                     
                                 <div class="desc text-left">                                    
-                                    <p> <!--Blockage is a significant issue in millimeter wave communication systems. Even a human body can cause a considerable signal attenuation (blockage). A high density of base stations and fast handovers can alleviate the problem.--> We analyze the impact of blockage by static buildings, mobile blockers as well as self-blockage by the user's body. Analytical expressions for blockage probability and blockage durations are derived. Our results indicate that the minimum density of BS required to satisfy the Quality of Service (QoS) requirements of Ultra Reliable Low Latency Communication (URLLC) applications is mainly <b>driven by reliability and latency constraints, rather than coverage or capacity requirements</b>.
-<!-- 
-We present a simplified model for the key QoS parameters such as blockage probability, frequency, and duration in mmWave cellular systems. Our model considers an open park-like area with dynamic blockage due to mobile blockers and self-blockage due to user's own body. A typical user is at the center and the BSs are distributed uniformly around the user. The user is considered blocked when all potential BSs around the UE are blocked simultaneously.--></p>
-				    <p class="summary">Collaborators: <a href="http://archive.engineering.nyu.edu/people/rajeev-kumar" target="_blank"> Rajeev Kumar, NYU </a><br> Submitted to JSAC special issue on URLLC applications.</p>
+                                    <p>We are developing a new optimization framework to transfer VR video over either WiFi or WiGig interface with high reliability and low latency. </p>
+				   
                                 </div><!--//desc-->         
+                               <!-- <a class="btn btn-cta-secondary" href="#" target="_blank"><i class="fas fa-link"></i> Details</a>   
+				<a class="btn btn-cta-secondary" href="https://github.com/ishjain/mmWave" target="_blank"><i class="fab fa-github"></i> Code</a> 
+				<a class="btn btn-cta-secondary" href="https://arxiv.org/pdf/1807.04388.pdf" target="_blank"><i class="far fa-file"></i> Paper</a> -->
+            
+                            </div><!--//item-->
+
+<!-------------------------------------------------------------->
+
+<!-------------------------------------------------------------->
+                            <hr class="divider" />
+                            <div class="item row">
+                                <a class="col-md-4 col-12" href="https://github.com/ishjain/mmWave" target="_blank">
+                                <img class="img-fluid project-image" src="assets/images/projects/blockage_model.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a href="https://github.com/ishjain/AQMs" target="_blank">mmWave Blockage Analysis</a></h3>
+                                    <p class="mb-2">We analyze the impact of blockage by static buildings, mobile blockers as well as self-blockage by the user's body. Our results indicate that the minimum density of BS required to satisfy the Quality of Service (QoS) requirements of Ultra Reliable Low Latency Communication (URLLC) applications is mainly driven by reliability and latency constraints, rather than coverage or capacity requirements.</p>
+				    <p class="summary">Collaborators: <a href="http://archive.engineering.nyu.edu/people/rajeev-kumar" target="_blank"> Rajeev Kumar, NYU </a></p>
+        
                                <!-- <a class="btn btn-cta-secondary" href="#" target="_blank"><i class="fas fa-link"></i> Details</a>   -->
 				<a class="btn btn-cta-secondary" href="https://github.com/ishjain/mmWave" target="_blank"><i class="fab fa-github"></i> Code</a> 
 				<a class="btn btn-cta-secondary" href="https://arxiv.org/pdf/1807.04388.pdf" target="_blank"><i class="far fa-file"></i> Paper</a> 
-            
+
+                                </div><!--//desc-->  
+
+                        
                             </div><!--//item-->
+<!-------------------------------------------------------------->
                             <hr class="divider" />
                             <div class="item row">
                                 <a class="col-md-4 col-12" href="https://github.com/ishjain/AQMs" target="_blank">
@@ -182,13 +203,14 @@ We present a simplified model for the key QoS parameters such as blockage probab
                                 <div class="desc col-md-8 col-12">
                                     <h3 class="title"><a href="https://github.com/ishjain/AQMs" target="_blank">Active Queue Management</a></h3>
                                     <p class="mb-2">We implemented 7 queue management schemes including ARED, CoDel, PIE, and SFQ on GENI testbed and analyzed their performances in residential settings.</p>
-                                    <p><a class="more-link" href="https://github.com/ishjain/AQMs" target="_blank"><i class="fas fa-external-link-alt"></i>View on Github</a></p>
-
+                                  <!-- <p><a class="more-link" href="https://github.com/ishjain/AQMs" target="_blank"><i class="fas fa-external-link-alt"></i>View on Github</a></p>-->
+				<a class="btn btn-cta-secondary" href="https://github.com/ishjain/mmWave" target="_blank"><i class="fab fa-github"></i> Code</a> 
                                 </div><!--//desc-->  
 
                         
                             </div><!--//item-->
-                            <a class="btn btn-cta-secondary" href="https://github.com/ishjain/" target = "_blank">More on Github <i class="fas fa-chevron-right"></i></a>
+<!-------------------------------------------------------------->
+                           <!-- <a class="btn btn-cta-secondary" href="https://github.com/ishjain/" target = "_blank">More on Github <i class="fas fa-chevron-right"></i></a>-->
                         </div><!--//content-->  
                     </div><!--//section-inner-->                 
                 </section><!--//section-->
@@ -345,6 +367,7 @@ of the tilt of platform and processed the signal in an Arduino Mega. Applied PID
                         <h2 class="heading">Conferences</h2>
                         <div class="content">
                             <ul class="list-unstyled">
+                                <li><i class="far fa-calendar-alt"></i> <a href="https://sigmobile.org/mobicom/2018/index.php" target="_blank">MobiCom 2018</a> (New Delhi, India)</li>					
                                 <li><i class="far fa-calendar-alt"></i> <a href="https://itc30.org/" target="_blank">ITC 2018</a> (Vienna, Austria)</li>
                                 
                             </ul>
