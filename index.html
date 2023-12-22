@@ -137,18 +137,18 @@
                     <div class="section-inner" id="about">
                         <h2 class="heading">About Me</h2>
                         <div class="content">
-                            <p> I am a PhD candidate with  <a href="http://wcsng.ucsd.edu/" traget="_blank">Prof. Dinesh Bharadia</a> at UC San Diego. I design and implement wireless communication and sensing algorithms, focusing on millimeter-wave systems, vehicular communication, and virtual reality. My research provides a multi-faceted perspective on optimizing next-generation networks. I focus on enhancing throughput and addressing
-crucial factors such as reliability, low latency, security, and ease of deployment in real-world scenarios. My research is both theoretical and systems-oriented and has been published in leading venues such as
-Sigcomm, NSDI, Mobicom, Infocom, and IEEE journals.
+                            <p> I am a PhD candidate in Electrical and Computer Engineering with  <a href="http://wcsng.ucsd.edu/" traget="_blank">Prof. Dinesh Bharadia</a> at UC San Diego. I received my MS degree from New York University and B.Tech. degree from IIT Kanpur, India. My research spans diverse areas in ECE, including Wireless Communications and Networking, Signal Processing, and Security \& Privacy. My research is both theoretical and systems-oriented and has been published in leading venues such as Sigcomm, NSDI, Mobicom, Infocom, and IEEE journals.
 				    <br>
-				    I am a recipient of the Qualcomm Innovation Fellowship 2022 and VMWare research grant 2023. I received the Best Poster Award at Hotmobile 2023 and won the 3-minute competition at ACM student workshops thrice. I am serving as co-chair for the ACM Mobicom S3 workshop 2023.
+				    I am a recipient of the Qualcomm Innovation Fellowship 2022 and VMWare research grant 2023. I received the Best Poster Award at Hotmobile 2023 and won the 3-minute competition at ACM student workshops thrice. I also served as co-chair for the ACM Mobicom S3 workshop 2023.
 				    <br>
-				    Feel free to email me if you are interested in my work! 
+				    Feel free to email me (ikjain@ucsd.edu) if you are interested in my work! 
 				    <br>
 				    <p style="color:Tomato;">
 
-I will be in the academic job market! Please get in touch with me if you have any potential opportunities.
+I am in the academic job market in 2024! Please get in touch with me if you have any potential opportunities.
 </p> 
+<!-- 				     I design and implement wireless communication and sensing algorithms, focusing on millimeter-wave systems, vehicular communication, and virtual reality. My research provides a multi-faceted perspective on optimizing next-generation networks. I focus on enhancing throughput and addressing
+crucial factors such as reliability, low latency, security, and ease of deployment in real-world scenarios. -->
 <!-- 				    I am a PhD candidate with  <a href="http://wcsng.ucsd.edu/" traget="_blank">Prof. Dinesh Bharadia</a> at UCSD. I design and implement novel algorithms for wireless communication and sensing with a focus on millimeter-wave system, vehicular communication, and virtual reality. My research drives the next generation of wireless networks by providing a new perspective on optimizing these networks. While the cellular networks have been driven mainly by throughput so far, I showed that other metrics such as reliability and sustainability are also important and should be the driving force for 6G and beyond. I served as TPC at Mobicom S3 workshop'21 and CoNEXT artifact evaluation committee'19. 
 				    
 				    Apart from research, I enjoy working with student organizations on- or off-campus and often visit nearby hiking trails. Feel free to explore my webpage and connect with me. -->
@@ -162,6 +162,11 @@ I graduated from IIT Kanpur, India in 2016, where I completed my B.Tech in Elect
 is on Rendezvous Algorithms for Cognitive Radio Networks. <br> --></p>
                          
                         </div><!--//content-->
+		        <h2 class="heading">My Research</h2>
+			<div class="content">
+				<p> The next generation of wireless networks would connect billions of devices using existing and limited natural spectrum resources, all the while making it secure and sustainable with limited power and antennas. My research takes a holistic approach to optimizing these resources to deliver not only high data rates but also enhance reliability and scalability and facilitate practical deployments. Moreover, as the wireless infrastructure is deployed ubiquitously in both indoor (e.g., WiFi) and outdoor (e.g., 5G cellular) environments,  there is an opportunity to provide sensing services alongside data communication, eliminating the need for additional sensor deployment. By leveraging existing wireless infrastructure, my research focuses on developing radio-frequency-based sensing solutions such as localization and tracking of mobile devices. Furthermore, my research recognizes that as communication and sensing systems become more accessible, they are vulnerable to security threats such as spoofing and jamming attacks, so I designed and implemented appropriate measures to counter these attacks.
+				</p>
+			</div><!--//content-->
                     </div><!--//section-inner-->                 
                 </section><!--//section-->
     
@@ -172,20 +177,46 @@ is on Rendezvous Algorithms for Cognitive Radio Networks. <br> --></p>
 <!-------------------------------------------------------------->
                             <hr class="divider" />
                             <div class="item row">
+                                <a class="col-md-4 col-12" href=# >
+                                <img class="img-fluid project-image" src="assets/images/projects/beamarmor.png" alt="project BeamArmor" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a href=# >BeamArmor: Anti-Jamming in 5G Cellular Networks with MIMO Null-steering <span style="color:orange;">[Hotmobile'24], [Milcom'23 Demo]</span></a></h3>
+                                    <p class="summary" style="color:#808080">F Zumegen, <strong>IK Jain</strong>, D Bharadia</p> 
+					<p class="mb-2">Jamming attacks pose a serious threat to the normal functioning of cellular networks, disrupting communication services and compromising emergency situations. BeamArmor is a practical real-time application to monitor and mitigate jamming attacks in cellular networks while being hosted on a custom cellular Radio Access Network (RAN) controller.
+The RAN controller is built with the open-source RAN stack srsRAN, from which it continuously extracts received signals. This allows robust jammer monitoring and the employment of beam-nulling techniques by the BeamArmor App to create nulls towards a jammer, thereby reducing the impact of its interference on the desired communication signals. The system ensures real-time operation of the RAN stack by efficiently managing computational resources, meeting the time requirements of the cellular network's physical layer functionalities, and seamlessly integrating with srsRAN. The BeamArmor App is evaluated with over-the-air experiments that demonstrate the effectiveness of \name in detecting jammers and maintaining reliable communication services in the presence of jamming attacks. Our broader vision is to integrate BeamArmor and other MIMO-based applications as real-time applications in Open-RAN standards. </p>
+                    
+                               <!-- <a class="btn btn-cta-secondary" href="#" target="_blank"><i class="fas fa-link"></i> Details</a>   -->
+               
+                
+                <a class="btn btn-cta-secondary" href=# ><i class="far fa-file"></i> PDF (coming soon)</a> 
+ 
+<!--                 <a class="btn btn-cta-secondary" href="https://wcsng.ucsd.edu/files/mmflexible_slides.pdf" ><i class="fab fa-slideshare"></i>Slides</a> 
+                <a class="btn btn-cta-secondary" href="https://youtu.be/Xo1JbZHfBCY" ><i class="fas fa-video"></i>Video</a>
+		<a class="btn btn-cta-secondary" href="https://github.com/ucsdwcsng/dpa" ><i class="fab fa-github"></i> Code</a>  -->
+                                </div><!--//desc-->  
+
+                        
+                            </div><!--//item-->
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+                            <hr class="divider" />
+                            <div class="item row">
                                 <a class="col-md-4 col-12" href="https://wcsng.ucsd.edu/dpa/" >
-                                <img class="img-fluid project-image" src="assets/images/projects/mmflexible.PNG" alt="project mmFlexible" />
+                                <img class="img-fluid project-image" src="assets/images/projects/mmflexible.png" alt="project mmFlexible" />
                                 </a>
                                 <div class="desc col-md-8 col-12">
                                     <h3 class="title"><a href="https://wcsng.ucsd.edu/dpa/" >mmFlexible: Flexible Directional Frequency Multiplexing for Multi-user mmWave Networks <span style="color:orange;">[Infocom'23]</span></a></h3>
                                     <p class="summary" style="color:#808080"><strong>IK Jain</strong>, RR Vennam, R Subbaraman, D Bharadia</p> 
-					<p class="mb-2">Multiple devices can be supported by a high-bandwidth mmWave network through flexible frequency-time-space multiplexing. However, despite high bandwidth, modern mmWave networks cannot flexibly divide and distribute bandwidth resources to multiple users with traditional phased arrays. It is because all the frequency components in the signal are beamformed to one direction via pencil beams and cannot be streamed to other user directions. Our system, mmFlexible, deploy a new antenna array called delay-phased array to enable flexible frequency slicing, where different frequency slices of the mmWave signal are beamformed to different directions with the same pencil beam. </p>
+					<p class="mb-2">Millimeter-wave bands support 100$\times$ more bandwidth than sub-6 systems, which could have easily been used to scale mmWave connectivity to hundreds or thousands of devices in a network, but it is limited to only a few devices. The underlying problem is not the availability of resources but the inefficient distribution of those resources to all users. The resource distribution in mmWave is limited to time-based scheduling, which serves one user at a time using a single directional beam.
+					 Our system, mmFlexible, deploys a new antenna array for frequency-dependent beamforming, where different frequency slices of the mmWave signal are beamformed in different directions with the same pencil beam. </p>
                     
                                <!-- <a class="btn btn-cta-secondary" href="#" target="_blank"><i class="fas fa-link"></i> Details</a>   -->
                
                 
                 <a class="btn btn-cta-secondary" href="https://wcsng.ucsd.edu/files/mmflexible.pdf" ><i class="far fa-file"></i> PDF</a> 
  
-                <a class="btn btn-cta-secondary" href="https://wcsng.ucsd.edu/files/mmflexible_slides.pdf" ><i class="fab fa-slideshare"></i>Slides</a> 
+                <a class="btn btn-cta-secondary" href="https://wcsng.ucsd.edu/files/slides_mmflexible.pdf" ><i class="fab fa-slideshare"></i>Slides</a> 
                 <a class="btn btn-cta-secondary" href="https://youtu.be/Xo1JbZHfBCY" ><i class="fas fa-video"></i>Video</a>
 		<a class="btn btn-cta-secondary" href="https://github.com/ucsdwcsng/dpa" ><i class="fab fa-github"></i> Code</a> 
                                 </div><!--//desc-->  
@@ -213,6 +244,29 @@ is on Rendezvous Algorithms for Cognitive Radio Networks. <br> --></p>
                 <a class="btn btn-cta-secondary" href="https://www.youtube.com/embed/Lx6Hn4g7ItQ" ><i class="fas fa-video"></i>Video</a>
 		
                                 </div><!--//desc-->  
+
+                        
+                            </div><!--//item-->
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+                            <hr class="divider" />
+                            <div class="item row">
+                                <a class="col-md-4 col-12" href=# >
+                                <img class="img-fluid project-image" src="assets/images/projects/hotcarbon22.png" alt="project Hotcarbon" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a href="https://wcsng.ucsd.edu/hotcarbon/" >Multiple smaller base stations are greener than a single powerful one <span style="color:orange;">[HotCarbon 2022]</span></a></h3>
+                                    <p class="summary" style="color:#808080">A Gupta, <strong>IK Jain</strong>, D Bharadia</p> 
+					<p class="mb-2"> With uniform densification of base stations, the dependency on power amplifiers to transmit at unreasonable high powers reduces and opens the doors for greener wireless networks. At the same time, large-scale densification will lead to mushrooming of base-station hardware, which will start consuming more power. Hence, there exists a green-point of densification. Check out our short HotCarbon’22 workshop paper, which shows empirical models on green densification levels!  </p>
+                    
+                               <!-- <a class="btn btn-cta-secondary" href="#" target="_blank"><i class="fas fa-link"></i> Details</a>   -->
+               
+                
+                <a class="btn btn-cta-secondary" href="https://ucsdwcsng.github.io/files/hotc_paper.pdf" ><i class="far fa-file"></i>PDF</a> 
+ 
+                <a class="btn btn-cta-secondary" href="https://ucsdwcsng.github.io/files/HotCarbon_slides_pdf.pdf" ><i class="fab fa-slideshare"></i>Slides</a> 
+                <a class="btn btn-cta-secondary" href="https://www.youtube.com/embed/3H_-jbiaoF8?si=9zaAxXqVYxwdbB3z" ><i class="fas fa-video"></i>Video</a> -->
+                                </div><!--//desc  
 
                         
                             </div><!--//item-->
